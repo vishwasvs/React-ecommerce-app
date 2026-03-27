@@ -33,7 +33,6 @@ https://react-ecommerce-app-zeta-liart.vercel.app
 ---
 
 ## Folder Structure
-
 src/
 │
 ├── components/
@@ -59,6 +58,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 ---
 
