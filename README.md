@@ -1,18 +1,113 @@
-# React + Vite
+# React E-commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e-commerce web application built using React, Vite, and Bootstrap. Users can browse products, filter by category, manage a cart, and complete a checkout process.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://react-ecommerce-app-zeta-liart.vercel.app
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Features
 
-## Expanding the ESLint configuration
+* Product listing with categories
+* Add to cart functionality
+* Increase / decrease quantity
+* Remove items from cart
+* Dynamic total calculation
+* Checkout form with validation
+* React Router navigation
+* Responsive design with Bootstrap
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+* React (Vite)
+* React Router DOM
+* Bootstrap
+* Context API
+
+---
+
+## Folder Structure
+
+src/
+│
+├── components/
+│   ├── Footer.jsx
+│   ├── Main.jsx
+│   ├── Navbar.jsx
+│   ├── Product.jsx
+│   ├── ProductCard.jsx
+│   └── index.js
+│
+├── Context/
+│   └── CartContext.jsx
+│
+├── pages/
+│   ├── About.jsx
+│   ├── cart.jsx
+│   ├── checkout.jsx
+│   ├── contact.jsx
+│   ├── Home.jsx
+│   ├── Layout.jsx
+│   └── productdetails.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## Installation
+
+Clone the repo:
+
+git clone https://github.com/your-username/react-ecommerce-app.git
+
+Navigate to folder:
+
+cd react-ecommerce-app
+
+Install dependencies:
+
+npm install
+
+Run project:
+
+npm run dev
+
+---
+
+## Build
+
+npm run build
+
+---
+
+## Deployment (Vercel)
+
+* Import GitHub repo into Vercel
+* Use:
+
+  * Build Command: npm run build
+  * Output Directory: dist
+
+---
+
+
+## Future Improvements
+
+* Save cart using localStorage
+* Add payment integration
+* Add search & filters
+* Improve UI/UX
+
+---
+
+## Author
+
+Vishwas S
