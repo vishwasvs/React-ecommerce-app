@@ -32,36 +32,6 @@ https://react-ecommerce-app-zeta-liart.vercel.app
 
 ---
 
-## Folder Structure
-src/
-│
-├── components/
-│   ├── Footer.jsx
-│   ├── Main.jsx
-│   ├── Navbar.jsx
-│   ├── Product.jsx
-│   ├── ProductCard.jsx
-│   └── index.js
-│
-├── Context/
-│   └── CartContext.jsx
-│
-├── pages/
-│   ├── About.jsx
-│   ├── cart.jsx
-│   ├── checkout.jsx
-│   ├── contact.jsx
-│   ├── Home.jsx
-│   ├── Layout.jsx
-│   └── productdetails.jsx
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-```
-
----
-
 ## Installation
 
 Clone the repo:
